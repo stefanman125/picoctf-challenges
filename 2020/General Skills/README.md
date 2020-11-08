@@ -34,7 +34,7 @@ The flag for this challenge is `picoCTF{p}`
 
 As the name suggests, we have to use the `strings` command to find the flag in this file. However, there are a lot of strings, so we should use `grep` to filter the output to what we need. We can filter for `pico`.
 
-<img src="images/strings\ it1.png">
+<img src="images/strings it1.png">
 
 The flag for this challenge is `picoCTF{5tRIng5_1T_d66c7bb7}`
 
@@ -52,7 +52,7 @@ The flag for this challenge is `picoCTF{l3arn_th3_r0p35}`
 
 To find the flag in the given file *quickly*, we have to use `grep` as we did in the `Strings It` challenge. Simply `cat` the file, and use `grep` to filter out for lines that contain the text `pico`.
 
-<img src="images/first\ grep1.png">
+<img src="images/first grep1.png">
 
 The flag for this challenge is `picoCTF{grep_is_good_to_find_things_f77e0797}`
 
@@ -60,7 +60,7 @@ The flag for this challenge is `picoCTF{grep_is_good_to_find_things_f77e0797}`
 
 For this challenge, we need to use `netcat` on the given URL and port. A tutorial is given on the challenge itself on how to use netcat.
 
-<img src="images/whats\ a\ net\ cat1.png">
+<img src="images/whats a net cat1.png">
 
 The flag for this challenge is `picoCTF{nEtCat_Mast3ry_d0c64587}`
 
