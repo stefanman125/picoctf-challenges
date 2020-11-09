@@ -122,11 +122,11 @@ The first thing we should do is look at the source code and look for any places 
 
 If we look at line 38, we can see an integer `total_cost` being initialized with a default value of 0. By default this integer is initialized as a 4 byte signed integer, which means it has a max value of `2,147,483,647`, any number higher than that will result in the integer becoming its lowest possible number, which is `-2,147,483,647`. If we supply a big enough number and result in `total_cost` becoming negative, line 42 will end up giving us money (instead of subtracting it), and the goal is to get enough money to buy the flag.
 
-<img src="images/flag shop1.png">
+<img src="images/flag_shop1.png">
 
 Once we have enough funds, we can buy the flag.
 
-<img src="images/flag shop2.png">
+<img src="images/flag_shop2.png">
 
 The flag for this challenge is `picoCTF{m0n3y_bag5_68d16363}`
 
